@@ -1,10 +1,12 @@
-Serveri çalıştırmak için
-
-default server url: [localhost:3001](http://localhost:3001)
-
+Önce php serveri başlatmamız gerekiyor.
+```
+php -S 127.0.0.1:3000 -t public
+```
+daha sonra autoreload işlemleri için bu komutu çalıştırıyoruz.
 ```shell
 npm run watch
 ```
+Bundan sonra 3000 portu yerine 3001 portu kullanılabilir.
 
 Kodları minify edip productiona çıkmak için
 ```shell
