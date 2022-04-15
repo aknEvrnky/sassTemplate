@@ -12,4 +12,12 @@ npm run prod
 ```
 
 fontawesome api keyi için:
-.npmrc kısmında <YOUR API TOKEN> yazan kısma tokeninizi girin.
+ana dizine .npmrc diye bir dosya oluşturun.
+
+dosyanın içeriğine şunu ekleyin:
+
+```
+@fortawesome:registry=https://npm.fontawesome.com/
+//npm.fontawesome.com/:_authToken=<API KEY>
+```
+API KEY i eklemeyi unutmayın.
