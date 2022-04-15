@@ -1,0 +1,14 @@
+@import 'config/variable';
+@import 'config/helpers';
+
+@import 'config/standarts';
+
+// lib import area
+@import 'libs/bootstrap';
+
+@import 'global/header';
+@import 'global/footer';
+@import 'global/global';
+
+// user defined scss
+@import 'byUser';

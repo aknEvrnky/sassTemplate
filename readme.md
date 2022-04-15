@@ -1,10 +1,15 @@
-package.json dosyamızın içinde tanımlı olan gerekli paketlerle beraber node modullerimizi kuruyoruz
+Serveri çalıştırmak için
 
-  ```sh
-  npm install
-  ```
+default server url: [localhost:3001](http://localhost:3001)
 
-Daha sonra, gulpımızı başlatıyoruz.
-  ```sh
-  gulp
-  ```
+```shell
+npm run watch
+```
+
+Kodları minify edip productiona çıkmak için
+```shell
+npm run prod
+```
+
+fontawesome api keyi için:
+.npmrc kısmında <YOUR API TOKEN> yazan kısma tokeninizi girin.

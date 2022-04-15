@@ -1,3 +1,6 @@
 node_modules/
 .vscode/
 .idea/
+package-lock.json
+vendor/
+mix-manifest.json
