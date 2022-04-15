@@ -1,8 +1,8 @@
 Önce php serveri başlatmamız gerekiyor.
 ```
-php -S 127.0.0.1:3000 -t public
+npm run serve
 ```
-daha sonra autoreload işlemleri için bu komutu çalıştırıyoruz.
+daha sonra autoreload işlemleri için bu komutu ayrı bir terminalde çalıştırıyoruz.
 ```shell
 npm run watch
 ```
