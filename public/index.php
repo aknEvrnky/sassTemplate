@@ -19,16 +19,16 @@ function getPartial($partial) {
 }
 
 // include header
-
 getPartial('header');
 
 $uri = ltrim($_SERVER['REQUEST_URI'], '/');
 
  if ($uri == '' || $uri == 'index.php') {
      include getPage('index');
- } else if ($page = getPage($uri)) {
+ } else if (($page = getPage($uri)) && $uri != '404') {
      include $page;
  } else {
+     http_response_code(404);
      include getPage('404');
  }
 
